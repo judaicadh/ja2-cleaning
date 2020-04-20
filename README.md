@@ -1,4 +1,11 @@
-# tess
+# Scripts for Processing JA2
+
+This repository contains various Python scripts used in the creation of the [Dataset for Judaica Americana: A Bibliography of Publications to 1900](https://repository.upenn.edu/judaica_americana/2/). 
+- extract_singerman.py: for extracting the data
+
+This repository has been forked from [tess](https://github.com/senderle/tess), written by [Jonathan Scott Enderle](https://github.com/senderle). tess was used to create the JA2 index.
+
+## tess
 
 An extremely basic python script for converting PDFs to TIFFs and 
 performing OCR with tesseract.
@@ -26,3 +33,6 @@ An Italian-language sample file is provided in the `testdata` folder. To
 process it, run the below command:
 
     tess.py --language ita testdata/1961_Alessandria.pdf
+
+# This is a Judaica Digital Humanities at the Penn Libraries repository.
+Judaica Digital Humanities at the <a href="http://library.upenn.edu">Penn Libraries</a> (also referred to as Judaica DH) is a robust program of projects and tools for experimental digital scholarship with Judaica collections, informed by digital humanities, Jewish studies, and cultural heritage approaches. Visit our [website](judaicadh.github.io).
