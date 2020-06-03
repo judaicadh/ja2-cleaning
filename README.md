@@ -1,7 +1,9 @@
 # Scripts for Processing JA2
 
 This repository contains various Python scripts used in the creation of the [Dataset for Judaica Americana: A Bibliography of Publications to 1900](https://repository.upenn.edu/judaica_americana/2/). 
-- extract_singerman.py: for extracting the data
+- extract_singerman.py: for extracting the data from the JA draft and writing into a csv 
+- flip-index-headers.py: for creating a csv of Singerman IDs and corresponding index headers
+- extract_singerman_serials.py: for extracting the data from the JA draft and writing into a csv re: serials
 
 This repository has been forked from [tess](https://github.com/senderle/tess), written by [Jonathan Scott Enderle](https://github.com/senderle). tess was used to create the JA2 index.
 
