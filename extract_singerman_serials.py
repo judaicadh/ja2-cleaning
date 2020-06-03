@@ -51,17 +51,6 @@ print(entry)
 # -------------------------------------------------------------------------------
 with open('singerman-serials.csv', 'w') as csv_file:
     writer = csv.writer(csv_file)
-    writer.writerow(['singerman_number','details','notes','copies'])
+    writer.writerow(['singerman_number','entry','notes','copies'])
     for biblio in entry:
         writer.writerow([biblio, ] + [i for i in entry[biblio]]) #not entirely clear of what this line does?
-
-# -------------------------------------------------------------------------------
-# Merge that CSV with existing CSVs for digital copies
-# -------------------------------------------------------------------------------
-#singerman_bibliography = pd.read_csv("test.csv")
-#volume1 = pd.read_csv("Volume1.csv")
-#singerman_bibliography_volume1 = singerman_bibliography.merge(volume1, on="singerman_number") #need to be sure to KEEP any singerman numbers from volume1 that DON'T have a duplicate in singerman_bibliography
-
-#singerman_volume1 = pd.read_csv(singerman_bibliography_volume1)
-#volume2 = pd.read_csv("Volume2.csv")
-#singerman_final = singerman_volume1.merge(volume2, on="singerman_number")
