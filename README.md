@@ -1,4 +1,4 @@
-# Scripts for Processing JA2
+# Scripts for Processing the Digital Second Edition of Judaica Americana
 
 This repository contains various Python scripts used in the creation of the [Dataset for Judaica Americana: A Bibliography of Publications to 1900](https://repository.upenn.edu/judaica_americana/2/). 
 - extract_singerman.py: for extracting the data from the JA draft and writing into a csv 
