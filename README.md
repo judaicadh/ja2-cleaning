@@ -2,6 +2,8 @@
 
 This repository contains various Python scripts used in the creation of datasets from Robert Singerman's [Judaica Americana: A Bibliography of Publications to 1900](https://repository.upenn.edu/judaica_americana/). These datasets were used as the foundation of the [Digital Second Edition of Judaica Americana](https://singermanja2.exhibits.library.upenn.edu/). 
 
+[![DOI](https://zenodo.org/badge/257352827.svg)](https://zenodo.org/badge/latestdoi/257352827)
+
 These scripts include:
 - extract_singerman.py: for extracting the data from the JA draft and writing into a csv 
 - flip-index-headers.py: for creating a csv of Singerman IDs and corresponding index headers
